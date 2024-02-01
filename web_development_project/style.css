@@ -61,7 +61,8 @@ img {
 #navbar ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    
 
 }
 
@@ -86,6 +87,17 @@ img {
     justify-content: center;
     align-items: center;
 
+}
+.socialmedia{
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: flex-end;
+    position: center;
 }
 
 #title {
@@ -113,7 +125,7 @@ img {
     text-align: center;
     width: 100%;
     padding: 3rem 0rem;
-    background-color: rgb(170, 214, 255);
+    background-color: rgb(247, 247, 247);
 
 }
 
@@ -142,4 +154,16 @@ img {
 
 }
 
+.logo{
+    width: 8vh;
+    padding: 0.5rem;
+    position: center;
+    display: inline;
+    justify-content: start;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+   
+}
 
